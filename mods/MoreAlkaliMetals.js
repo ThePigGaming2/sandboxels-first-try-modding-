@@ -1,7 +1,7 @@
 elements.Lithium = {
 	color: "#acb1b8",
 	behavior: behaviors.POWDER,
-	category: "Powders",
+	category: "powders",
 	state: "solid",
     tempHigh: 180.5,
     stateHigh: "Molten_Lithium",
@@ -23,6 +23,7 @@ elements.Molten_Lithium = {
     density: 534,
     tempLow: 180.5,
     stateLow: "Lithium",
+    category: "states"
     reactions: {
     "water":{elem1:"explosion",elem2:"hydrogen",
     "sugar_water"{elem1:"explosion",elem2:"hydrogen"}
