@@ -22,9 +22,9 @@ elements.molten_lithium = {
     density: 534,
     tempLow: 180.5,
     stateLow: "lithium",
-    category: "states"
+    category: "states",
     reactions: {
-        "water":{elem1:"explosion",elem2":hydrogen"},
+        "water":{elem1:"explosion",elem2:"hydrogen"},
         "sugar_water":{elem1:"explosion",elem2:"hydrogen"},
         "pool_water":{elem1:"explosion",elem2:"hydrogen"},
         "dirty_water":{elem1:"explosion",elem2:"hydrogen"},
