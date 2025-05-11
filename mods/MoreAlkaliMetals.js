@@ -7,7 +7,7 @@ elements.lithium = {
     stateHigh: "Molten_Lithium",
     density: 534,
     reactions: {
-    "water":{elem1:"explosion",elem2:"hydrogen",
+    "water":{elem1:"explosion",elem2:"hydrogen"},
     "sugar_water:"{elem1:"explosion",elem2:"hydrogen"},
     "pool_water:"{elem1:"explosion",elem2:"hydrogen"},
     "dirty_water:"{elem1:"explosion",elem2:"hydrogen"},
