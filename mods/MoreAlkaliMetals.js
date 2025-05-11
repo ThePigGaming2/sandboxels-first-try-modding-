@@ -6,12 +6,14 @@ elements.Lithium = {
     tempHigh: 180.5,
     stateHigh: "Molten_Lithium",
     density: 534,
-    reactions: water={elem1:"explosion",elem2:"hydrogen",
-    reactions: sugar_water={elem1:"explosion",elem2:"hydrogen",
-    reactions: pool_water={elem1:"explosion",elem2:"hydrogen",
-    reactions: dirty_water={elem1:"explosion",elem2:"hydrogen",
-    reactions: salt_water={elem1:"explosion",elem2:"hydrogen",
-    reactions: seltzer_water={elem1:"explosion",elem2:"hydrogen",
+    reactions: {
+    "water":{elem1:"explosion",elem2:"hydrogen",
+    "sugar_water"{elem1:"explosion",elem2:"hydrogen"}
+    "pool_water"{elem1:"explosion",elem2:"hydrogen"}
+    "dirty_water"{elem1:"explosion",elem2:"hydrogen"}
+    "salt_water"{elem1:"explosion",elem2:"hydrogen"}
+    "seltzer_water"{elem1:"explosion",elem2:"hydrogen"},
+}
 }
 
 elements.Molten_Lithium = {
@@ -21,10 +23,12 @@ elements.Molten_Lithium = {
     density: 534,
     tempLow: 180.5,
     stateLow: "Lithium",
-    reactions: water={elem1:"explosion",elem2:"hydrogen",
-    reactions: sugar_water={elem1:"explosion",elem2:"hydrogen",
-    reactions: pool_water={elem1:"explosion",elem2:"hydrogen",
-    reactions: dirty_water={elem1:"explosion",elem2:"hydrogen",
-    reactions: salt_water={elem1:"explosion",elem2:"hydrogen",
-    reactions: seltzer_water={elem1:"explosion",elem2:"hydrogen",
+    reactions: {
+    "water":{elem1:"explosion",elem2:"hydrogen",
+    "sugar_water"{elem1:"explosion",elem2:"hydrogen"}
+    "pool_water"{elem1:"explosion",elem2:"hydrogen"}
+    "dirty_water"{elem1:"explosion",elem2:"hydrogen"}
+    "salt_water"{elem1:"explosion",elem2:"hydrogen"}
+    "seltzer_water"{elem1:"explosion",elem2:"hydrogen"},
+}
 }
