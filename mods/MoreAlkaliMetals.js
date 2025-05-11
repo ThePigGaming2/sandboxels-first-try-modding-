@@ -4,7 +4,7 @@ elements.lithium = {
 	category: "powders",
 	state: "solid",
     tempHigh: 180.5,
-    stateHigh: "Molten_Lithium",
+    stateHigh: "molten_lithium",
     density: 534,
     reactions: {
     "water":{elem1:"explosion",elem2:"hydrogen"},
